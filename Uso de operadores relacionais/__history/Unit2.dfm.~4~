@@ -1,0 +1,55 @@
+object labelResultado: TlabelResultado
+  Left = 0
+  Top = 0
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 8
+    Width = 75
+    Height = 13
+    Caption = 'Digite um Valor:'
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 111
+    Width = 88
+    Height = 13
+    Caption = 'Mostrar Resultado'
+  end
+  object labelResultado: TLabel
+    Left = 11
+    Top = 130
+    Width = 581
+    Height = 23
+    AutoSize = False
+  end
+  object Button1: TButton
+    Left = 183
+    Top = 25
+    Width = 75
+    Height = 25
+    Caption = 'Validar'
+    TabOrder = 0
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 8
+    Top = 27
+    Width = 169
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 1
+    Value = 0
+  end
+end

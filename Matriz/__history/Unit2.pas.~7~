@@ -1,0 +1,46 @@
+unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    ListBox1: TListBox;
+    ListBox2: TListBox;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+
+procedure TForm2.Button1Click(Sender: TObject);
+var
+  Vogais : array[1..5] of Char;
+  I : Integer;
+begin
+  Vogais[1] :='A';
+  Vogais[2] :='E';
+  Vogais[3] :='I';
+  Vogais[4] :='O';
+  Vogais[5] :='U';
+
+  for I := 1 to 5 do
+  ListBox1.Items.Add(Vogais[I]);
+
+end;
+
+end.

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/30 10:11:24.000.556,=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/10/30 10:16:13.000.773,C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Aula Operadores Booleanos\Booleanos.dfm</Transaction>
+    <Transaction>2017/10/30 10:16:13.000.773,C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Aula Operadores Booleanos\Booleanos.pas</Transaction>
+    <Transaction>2017/10/30 10:20:23.000.566,C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Aula Operadores Booleanos\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,87 @@
+object frmCadastroDeClientes: TfrmCadastroDeClientes
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'Cadastro de Clientes'
+  ClientHeight = 309
+  ClientWidth = 645
+  Color = clBtnFace
+  Enabled = False
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 645
+    Height = 81
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = 16
+    ExplicitTop = 16
+    ExplicitWidth = 609
+    object btnNovo: TBitBtn
+      Left = 72
+      Top = 13
+      Width = 75
+      Height = 50
+      Caption = 'Novo'
+      TabOrder = 0
+      OnClick = btnNovoClick
+    end
+    object btnEditar: TBitBtn
+      Left = 153
+      Top = 13
+      Width = 75
+      Height = 50
+      Caption = 'Editar'
+      TabOrder = 1
+      OnClick = btnEditarClick
+    end
+    object btnSalvar: TBitBtn
+      Left = 234
+      Top = 13
+      Width = 75
+      Height = 50
+      Caption = 'Salvar'
+      Enabled = False
+      TabOrder = 2
+      OnClick = btnSalvarClick
+    end
+    object btnExcluir: TBitBtn
+      Left = 315
+      Top = 13
+      Width = 75
+      Height = 50
+      Caption = 'Excluir'
+      TabOrder = 3
+      OnClick = btnExcluirClick
+    end
+    object btnCancelar: TBitBtn
+      Left = 396
+      Top = 13
+      Width = 75
+      Height = 50
+      Caption = 'Cancelar'
+      Enabled = False
+      TabOrder = 4
+    end
+    object btnSair: TBitBtn
+      Left = 557
+      Top = 13
+      Width = 75
+      Height = 50
+      Caption = 'Sair'
+      TabOrder = 5
+      OnClick = btnSairClick
+    end
+  end
+end

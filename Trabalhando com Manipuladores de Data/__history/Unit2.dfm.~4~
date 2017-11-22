@@ -1,0 +1,152 @@
+object speAno: TspeAno
+  Left = 0
+  Top = 0
+  Caption = 'speAno'
+  ClientHeight = 328
+  ClientWidth = 430
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 48
+    Top = 21
+    Width = 15
+    Height = 13
+    Caption = 'Dia'
+  end
+  object Label2: TLabel
+    Left = 48
+    Top = 61
+    Width = 19
+    Height = 13
+    Caption = 'Mes'
+  end
+  object Label3: TLabel
+    Left = 48
+    Top = 104
+    Width = 19
+    Height = 13
+    Caption = 'Ano'
+  end
+  object Label4: TLabel
+    Left = 48
+    Top = 151
+    Width = 23
+    Height = 13
+    Caption = 'Hora'
+  end
+  object Label5: TLabel
+    Left = 48
+    Top = 181
+    Width = 32
+    Height = 13
+    Caption = 'Minuto'
+  end
+  object Label6: TLabel
+    Left = 48
+    Top = 221
+    Width = 42
+    Height = 13
+    Caption = 'Segundo'
+  end
+  object Label7: TLabel
+    Left = 48
+    Top = 261
+    Width = 55
+    Height = 13
+    Caption = 'Milisegundo'
+  end
+  object Button1: TButton
+    Left = 290
+    Top = 8
+    Width = 129
+    Height = 25
+    Caption = 'Mostrar Datas'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object speDia: TSpinEdit
+    Left = 48
+    Top = 40
+    Width = 121
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 1
+    Value = 0
+  end
+  object speMes: TSpinEdit
+    Left = 48
+    Top = 80
+    Width = 121
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 2
+    Value = 0
+  end
+  object speAno: TSpinEdit
+    Left = 48
+    Top = 123
+    Width = 121
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 3
+    Value = 0
+  end
+  object speHora: TSpinEdit
+    Left = 48
+    Top = 162
+    Width = 121
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 4
+    Value = 0
+  end
+  object speMin: TSpinEdit
+    Left = 48
+    Top = 200
+    Width = 121
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 5
+    Value = 0
+  end
+  object speSeg: TSpinEdit
+    Left = 48
+    Top = 240
+    Width = 121
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 6
+    Value = 0
+  end
+  object speMili: TSpinEdit
+    Left = 48
+    Top = 280
+    Width = 121
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 7
+    Value = 0
+  end
+  object Button2: TButton
+    Left = 290
+    Top = 39
+    Width = 129
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 8
+  end
+end

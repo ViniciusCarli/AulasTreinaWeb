@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{377F35CF-4C6A-4C90-A9D3-B94EA0928C43}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\Calc\Project2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Aula Operadores Booleanos\Project2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Exemplo de uso de condiconais\Project2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Exemplo do CASE\Project2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Contador While\Project2.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Project2">
+        <MSBuild Projects="..\Contador While\Project2.dproj"/>
+    </Target>
+    <Target Name="Project2:Clean">
+        <MSBuild Projects="..\Contador While\Project2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project2:Make">
+        <MSBuild Projects="..\Contador While\Project2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Project2;Project2;Project2;Project2;Project2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Project2:Clean;Project2:Clean;Project2:Clean;Project2:Clean;Project2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Project2:Make;Project2:Make;Project2:Make;Project2:Make;Project2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

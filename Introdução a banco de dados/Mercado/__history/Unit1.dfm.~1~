@@ -1,0 +1,45 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro De Produtos'
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ClientDataSet1: TClientDataSet
+    PersistDataPacket.Data = {
+      830000009619E0BD010000001800000005000000000003000000830002494404
+      000100000000000750726F6475746F0100490000000100055749445448020002
+      000A000A5175616E746964616465040001000000000005507265636F08000400
+      0000010007535542545950450200490006004D6F6E657900045065736F080004
+      00000000000000}
+    Active = True
+    Aggregates = <>
+    Params = <>
+    Left = 520
+    Top = 144
+    object ClientDataSet1ID: TIntegerField
+      FieldName = 'ID'
+    end
+    object ClientDataSet1Produto: TStringField
+      FieldName = 'Produto'
+      Size = 10
+    end
+    object ClientDataSet1Quantidade: TIntegerField
+      FieldName = 'Quantidade'
+    end
+    object ClientDataSet1Preco: TCurrencyField
+      FieldName = 'Preco'
+    end
+    object ClientDataSet1Peso: TFloatField
+      FieldName = 'Peso'
+    end
+  end
+end

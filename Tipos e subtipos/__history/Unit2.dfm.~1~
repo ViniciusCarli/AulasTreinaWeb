@@ -1,0 +1,64 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  ActiveControl = Button1
+  Caption = 'Form2'
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblResultado: TLabel
+    Left = 11
+    Top = 176
+    Width = 605
+    Height = 13
+  end
+  object Button1: TButton
+    Left = 120
+    Top = 72
+    Width = 113
+    Height = 37
+    Caption = 'Escolha a Suite'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object rdbluxo: TRadioButton
+    Left = 8
+    Top = 72
+    Width = 81
+    Height = 17
+    Caption = 'Luxo'
+    TabOrder = 1
+  end
+  object rdbDiamante: TRadioButton
+    Left = 8
+    Top = 95
+    Width = 81
+    Height = 17
+    Caption = 'Diamante'
+    TabOrder = 2
+  end
+  object rdbCristal: TRadioButton
+    Left = 8
+    Top = 118
+    Width = 81
+    Height = 17
+    Caption = 'Cristal'
+    TabOrder = 3
+  end
+  object rdbPresidencial: TRadioButton
+    Left = 8
+    Top = 141
+    Width = 81
+    Height = 17
+    Caption = 'Presidencial'
+    TabOrder = 4
+  end
+end
