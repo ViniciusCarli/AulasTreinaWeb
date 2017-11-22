@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2017/10/30 11:49:54.000.355,=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2017/10/30 11:54:09.000.162,C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Exemplo de uso de condiconais\Unit2.dfm</Transaction>
-    <Transaction>2017/10/30 11:54:09.000.162,C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Exemplo de uso de condiconais\Unit2.pas</Transaction>
-    <Transaction>2017/10/30 13:32:53.000.056,C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Exemplo de uso de condiconais\Project2.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

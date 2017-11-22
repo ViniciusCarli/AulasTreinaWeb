@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2017/10/31 14:40:49.000.323,=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2017/10/31 15:06:13.000.163,C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Tipos e subtipos\Unit2.pas=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2017/10/31 15:06:13.000.163,C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Tipos e subtipos\Unit2.dfm=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
-    <Transaction>2017/10/31 15:34:15.000.100,C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Tipos e subtipos\Project2.dproj=C:\Users\Vinicius Bustamanti\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
-  </Transactions>
-</BorlandProject>
